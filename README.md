@@ -19,13 +19,13 @@
 - 🏗 I structure apps with **Clean Architecture** (features → data / domain / presentation) and **Bloc / Cubit**, with `get_it`, `dartz` and `go_router`
 - 🤖 I like adding **AI to real products**: Gemini chat and vision, on-device ML Kit, TensorFlow Lite
 - 🌍 Most of my apps ship in **Arabic + English** with full RTL support
-- 🛠 I also build small **web tools** (TypeScript, Next.js, plain JS) when a problem needs one
+- 🛠 I also build small **web tools** (Next.js, plain JS) when a problem needs one
 
 ### 🧰 Tech stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,supabase,androidstudio,kotlin&perline=8" alt="Mobile"/><br/>
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,html,css,js&perline=8" alt="Web"/><br/>
+  <img src="https://skillicons.dev/icons?i=nextjs,tailwind,html,css,js&perline=8" alt="Web"/><br/>
   <img src="https://skillicons.dev/icons?i=cpp,python,git,github,githubactions,vscode,figma&perline=8" alt="Tools"/>
 </p>
 
@@ -40,7 +40,7 @@
 | 🍎 [**Fruits Hub**](https://github.com/youssef336/Fruits_Hub) + [**Dashboard**](https://github.com/youssef336/fruits_hub_dashboard) | Fruit marketplace: customer app with PayPal checkout, plus an admin app for products, live orders and coupons | Flutter · Bloc · Firebase · Supabase |
 | 📦 [**Flutter Deps Watch**](https://github.com/youssef336/flutter-deps-watch) · [live](https://youssef336.github.io/flutter-deps-watch/) | Paste any Flutter repo and see which packages are outdated or breaking, have advisories, and the order to upgrade them in. Runs entirely in the browser | JavaScript · pub.dev API |
 | 📺 [**Flutter Weekly**](https://github.com/youssef336/flutter-weekly) · [live](https://youssef336.github.io/flutter-weekly/) | Auto-updating weekly digest of the official Flutter YouTube channel, summarized in Arabic by Gemini | Python · GitHub Actions · Gemini |
-| 📊 [**YLY Web**](https://github.com/youssef336/YLY-web-HR) · [live](https://yly-web-hr.vercel.app) | Offline-first PWA for evaluating team members, with on-device scoring and Excel report export | Next.js · TypeScript · IndexedDB |
+| 📊 [**YLY Web**](https://github.com/youssef336/YLY-web-HR) · [live](https://yly-web-hr.vercel.app) | Offline-first PWA for evaluating team members, with on-device scoring and Excel report export | Next.js · IndexedDB |
 
 ### 📱 More Flutter apps
 
