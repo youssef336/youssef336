@@ -27,6 +27,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OWNER: ${{ github.repository_owner }}
         run: |
+          sudo chown -R "$USER" dist
           followers=$(gh api "users/$OWNER" --jq .followers)
           stars=$(gh api --paginate "users/$OWNER/repos?type=owner&per_page=100" \
             --jq '.[].stargazers_count' | awk '{s+=$1} END {print s+0}')
