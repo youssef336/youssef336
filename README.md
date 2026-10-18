@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/youssef336?tab=repositories&sort=stargazers"><img src="https://img.shields.io/github/stars/youssef336?affiliations=OWNER&style=flat-square&color=02569B&label=Stars" alt="Stars"/></a>
-  <a href="https://github.com/youssef336?tab=followers"><img src="https://img.shields.io/github/followers/youssef336?style=flat-square&color=02569B" alt="Followers"/></a>
+  <a href="https://github.com/youssef336?tab=repositories&sort=stargazers"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyoussef336%2Fyoussef336%2Foutput%2Fstars.json&style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/youssef336?tab=followers"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyoussef336%2Fyoussef336%2Foutput%2Ffollowers.json&style=flat-square" alt="Followers"/></a>
 </p>
 
 ---

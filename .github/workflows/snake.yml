@@ -1,4 +1,4 @@
-name: Contribution graph
+name: Profile graph and badges
 
 on:
   schedule:
@@ -21,6 +21,20 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Badge data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          followers=$(gh api "users/$OWNER" --jq .followers)
+          stars=$(gh api --paginate "users/$OWNER/repos?type=owner&per_page=100" \
+            --jq '.[].stargazers_count' | awk '{s+=$1} END {print s+0}')
+          badge() {
+            printf '{"schemaVersion":1,"label":"%s","message":"%s","color":"02569B"}' "$1" "$2"
+          }
+          badge followers "$followers" > dist/followers.json
+          badge Stars "$stars" > dist/stars.json
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
