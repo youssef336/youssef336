@@ -56,7 +56,10 @@
 ### 📈 GitHub activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=youssef336&theme=github-compact&hide_border=true&area=true" alt="Activity graph"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/youssef336/youssef336/output/github-snake-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/youssef336/youssef336/output/github-snake.svg" alt="Contribution graph"/>
+  </picture>
 </p>
 
 <p align="center"><i>⭐ If something here helps you, a star is always appreciated!</i></p>
