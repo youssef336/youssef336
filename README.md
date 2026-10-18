@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=youssef336&color=02569B&style=flat-square&label=Profile+views" alt="Profile views"/>
+  <a href="https://github.com/youssef336?tab=repositories&sort=stargazers"><img src="https://img.shields.io/github/stars/youssef336?affiliations=OWNER&style=flat-square&color=02569B&label=Stars" alt="Stars"/></a>
   <a href="https://github.com/youssef336?tab=followers"><img src="https://img.shields.io/github/followers/youssef336?style=flat-square&color=02569B" alt="Followers"/></a>
 </p>
 
